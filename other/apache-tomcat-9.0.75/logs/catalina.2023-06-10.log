@@ -1,0 +1,411 @@
+10-Jun-2023 21:34:11.125 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+10-Jun-2023 21:34:11.129 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+10-Jun-2023 21:34:11.130 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+10-Jun-2023 21:34:11.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:34:11.131 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:34:11.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2023 21:34:11.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2023 21:34:11.162 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2023 21:34:11.166 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2023 21:34:11.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2023 21:34:11.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+10-Jun-2023 21:34:11.167 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2023 21:34:11.168 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:34:11.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:34:11.169 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+10-Jun-2023 21:34:11.185 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+10-Jun-2023 21:34:11.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+10-Jun-2023 21:34:11.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+10-Jun-2023 21:34:11.186 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Jun-2023 21:34:11.204 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+10-Jun-2023 21:34:11.803 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:34:11.865 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1348] milliseconds
+10-Jun-2023 21:34:11.993 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2023 21:34:11.994 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+10-Jun-2023 21:34:12.014 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+10-Jun-2023 21:34:12.034 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+10-Jun-2023 21:34:12.134 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6c7a164b]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+10-Jun-2023 21:34:12.138 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [123] ms
+10-Jun-2023 21:34:12.140 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+10-Jun-2023 21:34:12.144 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+10-Jun-2023 21:34:12.158 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@638ef7ed]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+10-Jun-2023 21:34:12.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [20] ms
+10-Jun-2023 21:34:12.159 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+10-Jun-2023 21:34:12.161 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+10-Jun-2023 21:34:13.444 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2023 21:34:13.554 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [1,395] ms
+10-Jun-2023 21:34:13.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+10-Jun-2023 21:34:13.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [385] ms
+10-Jun-2023 21:34:13.940 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+10-Jun-2023 21:34:13.999 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [59] ms
+10-Jun-2023 21:34:14.000 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+10-Jun-2023 21:34:14.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [33] ms
+10-Jun-2023 21:34:14.032 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+10-Jun-2023 21:34:14.148 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [115] ms
+10-Jun-2023 21:34:14.158 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:34:14.195 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2328] milliseconds
+10-Jun-2023 21:34:16.296 INFO [http-nio-8082-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/team3] has started
+10-Jun-2023 21:34:16.667 INFO [http-nio-8082-exec-10] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2023 21:34:16.691 INFO [http-nio-8082-exec-10] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/team3] is completed
+10-Jun-2023 21:49:17.948 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2023 21:49:17.950 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:49:17.952 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2023 21:49:17.986 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2023 21:49:17.987 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8e46e56f-a03d-4628-8fff-2e555318cc87-9]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.988 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2e269b00-02f5-4f19-a0d6-5e8ace3cb04e-22]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.988 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [31713553-4804-4f1c-aa79-6b4bd4b0d4ca-7]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.988 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [63e3ddb3-7f62-4c7e-898b-b60e3fff4887-17]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.988 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3ebc51aa-a0fc-4879-8057-5da3cf85f26d-16]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.989 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [2738da22-1949-41a3-b068-d457773a1cce-12]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.989 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [46aeff35-9586-418c-8243-abfe0065b90a-11]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.989 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c86db1be-e97a-4d41-9f5a-c8be84b4f352-12]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.989 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [08ea0518-13c4-4cb3-bf8f-3993b677f7ca-16]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:17.990 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7bde1f3a]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [1885ddad-7059-4545-969c-3bc5c739221c-15]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 21:49:18.014 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:49:18.033 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:49:18.035 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+10-Jun-2023 21:51:55.586 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+10-Jun-2023 21:51:55.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+10-Jun-2023 21:51:55.590 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+10-Jun-2023 21:51:55.591 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:51:55.592 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:51:55.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+10-Jun-2023 21:51:55.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+10-Jun-2023 21:51:55.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+10-Jun-2023 21:51:55.644 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+10-Jun-2023 21:51:55.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+10-Jun-2023 21:51:55.645 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+10-Jun-2023 21:51:55.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Jun-2023 21:51:55.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+10-Jun-2023 21:51:55.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+10-Jun-2023 21:51:55.646 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+10-Jun-2023 21:51:55.650 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+10-Jun-2023 21:51:55.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+10-Jun-2023 21:51:55.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:51:55.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+10-Jun-2023 21:51:55.651 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+10-Jun-2023 21:51:55.659 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+10-Jun-2023 21:51:55.659 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+10-Jun-2023 21:51:55.660 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+10-Jun-2023 21:51:55.660 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+10-Jun-2023 21:51:55.686 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+10-Jun-2023 21:51:56.320 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:51:56.401 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1457] milliseconds
+10-Jun-2023 21:51:56.584 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+10-Jun-2023 21:51:56.584 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+10-Jun-2023 21:51:56.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+10-Jun-2023 21:51:56.624 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+10-Jun-2023 21:51:56.685 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@6b0d80ed]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+10-Jun-2023 21:51:56.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [93] ms
+10-Jun-2023 21:51:56.689 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+10-Jun-2023 21:51:56.691 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+10-Jun-2023 21:51:56.696 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@15f47664]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+10-Jun-2023 21:51:56.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [9] ms
+10-Jun-2023 21:51:56.698 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+10-Jun-2023 21:51:56.699 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+10-Jun-2023 21:51:58.108 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+10-Jun-2023 21:51:58.260 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [1,561] ms
+10-Jun-2023 21:51:58.277 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+10-Jun-2023 21:51:58.855 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [577] ms
+10-Jun-2023 21:51:58.866 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+10-Jun-2023 21:51:58.970 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [104] ms
+10-Jun-2023 21:51:58.971 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+10-Jun-2023 21:51:59.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [36] ms
+10-Jun-2023 21:51:59.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+10-Jun-2023 21:51:59.094 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [86] ms
+10-Jun-2023 21:51:59.125 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 21:51:59.259 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2858] milliseconds
+10-Jun-2023 22:09:17.349 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+10-Jun-2023 22:09:17.351 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 22:09:17.353 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+10-Jun-2023 22:09:17.382 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+10-Jun-2023 22:09:17.385 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [4047c89c-cd25-4890-97d9-4016b1a665b3-112]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.385 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [6f6d5d20-44ac-4f82-b239-a5034c8a864a-112]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.386 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [dffab41e-ee10-40d7-b02f-961799c300ac-123]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.386 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [23fdd369-64f6-4457-8676-4db0adbfa6c5-119]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.386 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [ec9040d5-fc01-4615-83b3-e3da6f024964-110]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.387 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [fb4ceed5-a6be-4f92-a0ed-75892f7ab54c-115]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.387 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [aba051f2-704f-4ac5-9ad4-8910a4de0bb7-121]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.388 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [3b9ca63f-c126-40fb-9eb4-d355fe0725ff-119]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.388 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [976fa20a-d8dd-4a60-b48b-dea6b025911e-105]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.389 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@7d755813]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [276384da-e0ab-49de-b16c-31c17d3f2990-109]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+10-Jun-2023 22:09:17.429 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 22:09:17.461 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+10-Jun-2023 22:09:17.473 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)

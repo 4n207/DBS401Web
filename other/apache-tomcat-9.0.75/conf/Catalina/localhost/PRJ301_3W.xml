@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context docBase="/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web" path="/PRJ301_3W">
+  <Resource auth="Container" driverClassName="com.microsoft.sqlserver.jdbc.SQLServerDriver" name="DS" password="Password123@" type="javax.sql.DataSource" url="jdbc:sqlserver://localhost:1433;databaseName=FlowerManagement" username="sa"/>
+</Context>
