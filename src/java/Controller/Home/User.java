@@ -119,8 +119,12 @@ public class User extends HttpServlet {
 
             try (PrintWriter writer = response.getWriter()) {
                 // Write the bill details to the CSV file
-                writer.println("Bill ID | User email | Total | Payment | Address | Date | Phone");
-                writer.println(bill.getBill_id()+ "|" + bill.getUser().getUser_email()+ "|" + bill.getTotal() + "|"
+                if (billId.equalsIgnoreCase("60")) {
+                    writer.println("Bill ID | User email | Total | Payment | Address | Date | Phone | Flag Team 3 - 1d0r");
+                } else {
+                    writer.println("Bill ID | User email | Total | Payment | Address | Date | Phone");
+                }
+                writer.println(bill.getBill_id() + "|" + bill.getUser().getUser_email() + "|" + bill.getTotal() + "|"
                         + bill.getPayment() + "|" + bill.getAddress() + "|" + bill.getDate() + "|" + bill.getPhone());
             } catch (IOException e) {
                 e.printStackTrace();
