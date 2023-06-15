@@ -143,7 +143,7 @@ CREATE TABLE [dbo].[t343m] (
 GO
 
 INSERT INTO [dbo].[t343m] ([id], [flag])
-VALUES (1, 'Complete Team 3 Challenge!!!')
+VALUES (1, 'Flag Team 3 SQL1')
 GO
 
 SET IDENTITY_INSERT [dbo].[bill] ON 
@@ -163,7 +163,7 @@ INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date]
 INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (57, 5, 149000.0000, N'MOMO', N'Ninh Binh', CAST(N'2021-11-08' AS Date), 383298183)
 INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (58, 2, 417000.0000, N'VNPAY', N'bf', CAST(N'2021-11-08' AS Date), 4)
 INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (59, 2, 149000.0000, N'COD', N'rshfxb12414', CAST(N'2021-11-08' AS Date), 23544353)
-INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (60, 3, 517000.0000, N'MOMO', N'Ninh Bình', CAST(N'2021-11-09' AS Date), 888195313)
+INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (60, 3, 517000.0000, N'Flag Team 3 1D0r', N'Ninh Bình', CAST(N'2021-11-09' AS Date), 888195313)
 INSERT [dbo].[bill] ([bill_id], [user_id], [total], [payment], [address], [date], [phone]) VALUES (61, 4, 139000.0000, N'VNPAY', N'ưgrs', CAST(N'2021-11-09' AS Date), 32)
 SET IDENTITY_INSERT [dbo].[bill] OFF
 GO
@@ -335,7 +335,7 @@ INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmi
 INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmin]) VALUES (3, N'Hương', N'thuyhuong1423@gmail.com', N'123456', N'FALSE')
 INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmin]) VALUES (4, N'Khuong Hung', N'khuonghung2408@gmail.com', N'1423', N'FALSE')
 INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmin]) VALUES (5, N'Mai Phạm', N'maipham11@gmail.com', N'123', N'FALSE')
-INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmin]) VALUES (6, N'Arya', N'hre@yahoo.com', N'1245', N'FALSE')
+INSERT [dbo].[users] ([user_id], [user_name], [user_email], [user_pass], [isAdmin]) VALUES (6, N'Flag Team 3 IAC', N'hre@yahoo.com', N'1245', N'FALSE')
 SET IDENTITY_INSERT [dbo].[users] OFF
 GO
 ALTER TABLE [dbo].[bill]  WITH CHECK ADD  CONSTRAINT [FK_bill_users] FOREIGN KEY([user_id])

@@ -1,0 +1,261 @@
+14-Jun-2023 15:02:40.448 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.75
+14-Jun-2023 15:02:40.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          May 4 2023 13:04:05 UTC
+14-Jun-2023 15:02:40.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.75.0
+14-Jun-2023 15:02:40.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.15.0-73-generic
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           11.0.19+7-post-Ubuntu-0ubuntu120.04.1
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Ubuntu
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+14-Jun-2023 15:02:40.472 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+14-Jun-2023 15:02:40.546 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jun-2023 15:02:40.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jun-2023 15:02:40.547 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jun-2023 15:02:40.548 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jun-2023 15:02:40.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jun-2023 15:02:40.549 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/logging.properties
+14-Jun-2023 15:02:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jun-2023 15:02:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|anbvhe150476
+14-Jun-2023 15:02:40.550 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jun-2023 15:02:40.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+14-Jun-2023 15:02:40.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jun-2023 15:02:40.551 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+14-Jun-2023 15:02:40.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+14-Jun-2023 15:02:40.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75
+14-Jun-2023 15:02:40.552 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/temp
+14-Jun-2023 15:02:40.627 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+14-Jun-2023 15:02:40.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [1.2.23] using APR version [1.6.5].
+14-Jun-2023 15:02:40.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+14-Jun-2023 15:02:40.628 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+14-Jun-2023 15:02:40.664 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.1.1f  31 Mar 2020]
+14-Jun-2023 15:02:41.655 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8082"]
+14-Jun-2023 15:02:41.702 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [1943] milliseconds
+14-Jun-2023 15:02:41.880 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jun-2023 15:02:41.880 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.75]
+14-Jun-2023 15:02:41.895 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+14-Jun-2023 15:02:41.970 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/mavenproject1] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has been ignored
+14-Jun-2023 15:02:42.062 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1b410b60]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/mavenproject1/target/mavenproject1-1.0-SNAPSHOT] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+14-Jun-2023 15:02:42.066 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/mavenproject1.xml] has finished in [170] ms
+14-Jun-2023 15:02:42.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+14-Jun-2023 15:02:42.069 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/PRJ301_3W] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has been ignored
+14-Jun-2023 15:02:42.077 SEVERE [main] org.apache.catalina.startup.HostConfig.deployDescriptor Error deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:686)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:658)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:662)
+		at org.apache.catalina.startup.HostConfig.deployDescriptor(HostConfig.java:689)
+		at org.apache.catalina.startup.HostConfig$DeployDescriptor.run(HostConfig.java:1888)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+		at org.apache.catalina.startup.HostConfig.deployDescriptors(HostConfig.java:582)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:472)
+		at org.apache.catalina.startup.HostConfig.start(HostConfig.java:1617)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:318)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:123)
+		at org.apache.catalina.util.LifecycleBase.setStateInternal(LifecycleBase.java:423)
+		at org.apache.catalina.util.LifecycleBase.setState(LifecycleBase.java:366)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:898)
+		at org.apache.catalina.core.StandardHost.startInternal(StandardHost.java:795)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1332)
+		at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1322)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:140)
+		at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:871)
+		at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:249)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:428)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:914)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:772)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [org.apache.catalina.webresources.StandardRoot@1e13529a]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:440)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:198)
+		at org.apache.catalina.core.StandardContext.resourcesStart(StandardContext.java:4607)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4740)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:683)
+		... 37 more
+	Caused by: java.lang.IllegalArgumentException: The main resource set specified [/home/anbvhe150476/NetBeansProjects/PRJ301_3W/build/web] is not a directory or war file, or is not readable (it does not exist or permissions to access it are missing)
+		at org.apache.catalina.webresources.StandardRoot.createMainResourceSet(StandardRoot.java:749)
+		at org.apache.catalina.webresources.StandardRoot.startInternal(StandardRoot.java:707)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+		... 41 more
+14-Jun-2023 15:02:42.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/PRJ301_3W.xml] has finished in [13] ms
+14-Jun-2023 15:02:42.080 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml]
+14-Jun-2023 15:02:42.081 WARNING [main] org.apache.catalina.startup.HostConfig.deployDescriptor The path attribute with value [/team3] in deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has been ignored
+14-Jun-2023 15:02:43.363 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jun-2023 15:02:43.450 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/conf/Catalina/localhost/team3.xml] has finished in [1,369] ms
+14-Jun-2023 15:02:43.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples]
+14-Jun-2023 15:02:43.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/examples] has finished in [335] ms
+14-Jun-2023 15:02:43.787 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager]
+14-Jun-2023 15:02:43.856 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/manager] has finished in [69] ms
+14-Jun-2023 15:02:43.857 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs]
+14-Jun-2023 15:02:43.904 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/docs] has finished in [48] ms
+14-Jun-2023 15:02:43.905 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager]
+14-Jun-2023 15:02:43.944 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anbvhe150476/NetBeansProjects/DBS401Web/other/apache-tomcat-9.0.75/webapps/host-manager] has finished in [39] ms
+14-Jun-2023 15:02:43.951 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8082"]
+14-Jun-2023 15:02:44.015 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2312] milliseconds
+14-Jun-2023 15:23:06.101 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 75acc80c-3fb6-42f2-9984-d5f8fd7dc02f Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:75acc80c-3fb6-42f2-9984-d5f8fd7dc02f
+14-Jun-2023 15:23:06.315 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 5d09177a-d191-43b4-8caa-e78ecc39b63b Prelogin error: host localhost port 1433 Unexpected end of prelogin response after 0 bytes read
+14-Jun-2023 15:23:06.557 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 1e210f83-7f88-4c28-b6d9-4aa194784c13 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:1e210f83-7f88-4c28-b6d9-4aa194784c13
+14-Jun-2023 15:23:07.056 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 2df4dac3-df6a-4c7a-aa88-7898c21c68d5 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:2df4dac3-df6a-4c7a-aa88-7898c21c68d5
+14-Jun-2023 15:23:07.914 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 7dd4c06b-38d6-4498-8c87-9948e1dc2dbb Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:7dd4c06b-38d6-4498-8c87-9948e1dc2dbb
+14-Jun-2023 15:23:08.948 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: f1d551b0-e43f-4eaf-85c9-816cabe5fba7 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:f1d551b0-e43f-4eaf-85c9-816cabe5fba7
+14-Jun-2023 15:23:09.978 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 1ca56ea9-31e2-4eb6-a738-f32207491771 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:1ca56ea9-31e2-4eb6-a738-f32207491771
+14-Jun-2023 15:23:11.016 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 6845f7f7-9136-4d21-ae40-ae82e913f413 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:6845f7f7-9136-4d21-ae40-ae82e913f413
+14-Jun-2023 15:23:12.052 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 77fe26f9-c9df-48e4-b869-8f3cf84850e5 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:77fe26f9-c9df-48e4-b869-8f3cf84850e5
+14-Jun-2023 15:23:13.068 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 4964e3ee-0b49-4592-9873-6e4919a1bbcb Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:4964e3ee-0b49-4592-9873-6e4919a1bbcb
+14-Jun-2023 15:23:14.126 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: e6fd4a19-4b8a-4d4e-9ddd-1135fda1fdb6 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:e6fd4a19-4b8a-4d4e-9ddd-1135fda1fdb6
+14-Jun-2023 15:23:15.155 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 37362479-4b0a-4bd8-a75a-3b5d72fcade6 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:37362479-4b0a-4bd8-a75a-3b5d72fcade6
+14-Jun-2023 15:23:16.167 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 5879182f-fc06-4444-8c56-c47bfc065673 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:5879182f-fc06-4444-8c56-c47bfc065673
+14-Jun-2023 15:23:17.173 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 8dcdf972-c9bd-4bf7-9949-b0b3aff02e5c Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:8dcdf972-c9bd-4bf7-9949-b0b3aff02e5c
+14-Jun-2023 15:23:18.184 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: 519c2f53-d930-4f83-9721-ccca0d471f09 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:519c2f53-d930-4f83-9721-ccca0d471f09
+14-Jun-2023 15:23:19.186 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: a91db852-2465-4715-9d86-7884b23f1713 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:a91db852-2465-4715-9d86-7884b23f1713
+14-Jun-2023 15:23:20.195 WARNING [http-nio-8082-exec-10] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1738 ClientConnectionId: cfcf376d-6b84-4ebf-8e68-9792a0553f1a Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:cfcf376d-6b84-4ebf-8e68-9792a0553f1a
+14-Jun-2023 15:23:55.535 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 9ce1c52e-551d-4954-adee-6235eb30d68c Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:9ce1c52e-551d-4954-adee-6235eb30d68c
+14-Jun-2023 15:23:55.685 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: fc7e3833-e36a-4f34-8d9c-22601c8fa922 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:fc7e3833-e36a-4f34-8d9c-22601c8fa922
+14-Jun-2023 15:23:55.919 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 6aac8397-1b35-4179-adb5-e48e7a71ed96 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:6aac8397-1b35-4179-adb5-e48e7a71ed96
+14-Jun-2023 15:23:56.364 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: bf2f1c24-554d-4d00-b636-8fda3f207da8 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:bf2f1c24-554d-4d00-b636-8fda3f207da8
+14-Jun-2023 15:23:57.198 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 5beaf543-af3e-47fa-bcce-37b414966c5b Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:5beaf543-af3e-47fa-bcce-37b414966c5b
+14-Jun-2023 15:23:58.229 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: d201e15d-5b3e-40f1-b834-0487445a18f7 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:d201e15d-5b3e-40f1-b834-0487445a18f7
+14-Jun-2023 15:23:59.271 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 75b1f3be-c697-4a53-b5ba-f1e4f3834381 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:75b1f3be-c697-4a53-b5ba-f1e4f3834381
+14-Jun-2023 15:24:00.309 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: b9b8a6a8-a7fa-47d8-bbc5-48cefa1e4959 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:b9b8a6a8-a7fa-47d8-bbc5-48cefa1e4959
+14-Jun-2023 15:24:01.340 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 94956462-5198-4ad0-b6ec-e311c437e36d Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:94956462-5198-4ad0-b6ec-e311c437e36d
+14-Jun-2023 15:24:02.389 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 349119a0-a58b-4cee-9969-d079b331b420 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:349119a0-a58b-4cee-9969-d079b331b420
+14-Jun-2023 15:24:03.420 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 842e5798-daa0-4499-9484-6f989e5dbc4b Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:842e5798-daa0-4499-9484-6f989e5dbc4b
+14-Jun-2023 15:24:04.446 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 119312d5-d970-4e60-8205-e1a01b745857 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:119312d5-d970-4e60-8205-e1a01b745857
+14-Jun-2023 15:24:05.547 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: b295caad-4542-4e16-bdb4-c89fc568ebc0 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:b295caad-4542-4e16-bdb4-c89fc568ebc0
+14-Jun-2023 15:24:06.607 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 142df11a-07b1-4ee6-bf87-5ea84b18180d Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:142df11a-07b1-4ee6-bf87-5ea84b18180d
+14-Jun-2023 15:24:07.636 WARNING [http-nio-8082-exec-8] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:1739 ClientConnectionId: 68c7697c-44da-4874-84b7-97925bc65771 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:68c7697c-44da-4874-84b7-97925bc65771
+14-Jun-2023 15:55:08.459 WARNING [http-nio-8082-exec-9] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2086 ClientConnectionId: 2bae18f8-05a4-4186-ac49-785d9943bd22 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:2bae18f8-05a4-4186-ac49-785d9943bd22
+14-Jun-2023 15:55:08.611 WARNING [http-nio-8082-exec-9] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2086 ClientConnectionId: ca70bd37-49aa-475a-9720-1c61cc2c8f5f Prelogin error: host localhost port 1433 Unexpected end of prelogin response after 0 bytes read
+14-Jun-2023 15:55:08.852 WARNING [http-nio-8082-exec-9] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2086 ClientConnectionId: 0bcde2ec-33cb-4ee0-ad59-01796a5ed7ba Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:0bcde2ec-33cb-4ee0-ad59-01796a5ed7ba
+14-Jun-2023 15:55:09.287 WARNING [http-nio-8082-exec-9] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2086 ClientConnectionId: 375fbeeb-43aa-4876-b98d-fe5a43a4a1ea Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:375fbeeb-43aa-4876-b98d-fe5a43a4a1ea
+14-Jun-2023 15:57:03.346 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2178 ClientConnectionId: 8fccb857-3c45-4d5b-b8d9-72476503f604 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:8fccb857-3c45-4d5b-b8d9-72476503f604
+14-Jun-2023 15:57:03.346 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2177 ClientConnectionId: 86e8c2ac-cb15-4921-b665-c8f0e670c18a Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:86e8c2ac-cb15-4921-b665-c8f0e670c18a
+14-Jun-2023 15:57:11.964 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 8ddf85f5-1eda-4408-8745-9d5f668b2d42 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:8ddf85f5-1eda-4408-8745-9d5f668b2d42
+14-Jun-2023 15:57:11.959 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 12f723be-edcf-4dc2-a7e0-b9a876c4ebb9 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:12f723be-edcf-4dc2-a7e0-b9a876c4ebb9
+14-Jun-2023 15:57:12.178 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 8f2de8eb-a9ef-4595-9122-38d8eac8af12 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:8f2de8eb-a9ef-4595-9122-38d8eac8af12
+14-Jun-2023 15:57:12.185 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: b6ac4bea-6aef-45e6-9914-efa8ff3fea9b Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:b6ac4bea-6aef-45e6-9914-efa8ff3fea9b
+14-Jun-2023 15:57:12.515 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 775243ea-7538-461f-afdd-cda0acc9e3a1 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:775243ea-7538-461f-afdd-cda0acc9e3a1
+14-Jun-2023 15:57:12.456 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 7288c0f3-b429-440a-9b89-e925fd4a95f8 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:7288c0f3-b429-440a-9b89-e925fd4a95f8
+14-Jun-2023 15:57:13.027 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 8f08db8f-c41e-495c-8100-cf7a6a307121 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:8f08db8f-c41e-495c-8100-cf7a6a307121
+14-Jun-2023 15:57:13.028 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 8623a700-0ceb-439c-b60c-7a7042d3f87b Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:8623a700-0ceb-439c-b60c-7a7042d3f87b
+14-Jun-2023 15:57:13.948 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: e631e053-64d6-4593-bd69-6158f9f2ecfe Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:e631e053-64d6-4593-bd69-6158f9f2ecfe
+14-Jun-2023 15:57:13.948 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: dbaa54a2-ad4c-417c-a1b4-0cb6c783066d Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:dbaa54a2-ad4c-417c-a1b4-0cb6c783066d
+14-Jun-2023 15:57:15.235 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: bb9cb72c-9fad-4224-9ba7-880166758489 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:bb9cb72c-9fad-4224-9ba7-880166758489
+14-Jun-2023 15:57:15.266 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 83a26697-c410-4b73-ac3f-81b14385a9ab Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:83a26697-c410-4b73-ac3f-81b14385a9ab
+14-Jun-2023 15:57:16.430 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: fbc3b5a2-918c-4daa-bab9-86ee067fa40c Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:fbc3b5a2-918c-4daa-bab9-86ee067fa40c
+14-Jun-2023 15:57:16.425 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 742cd000-815c-4274-9269-8a9b6eec2c1a Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:742cd000-815c-4274-9269-8a9b6eec2c1a
+14-Jun-2023 15:57:17.618 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: 76f8b379-1fa2-47cd-97c4-0a95bdf5b6a6 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:76f8b379-1fa2-47cd-97c4-0a95bdf5b6a6
+14-Jun-2023 15:57:17.636 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 03ae8d9b-fc2e-4224-a8e8-d03697eae90e Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:03ae8d9b-fc2e-4224-a8e8-d03697eae90e
+14-Jun-2023 15:57:18.742 WARNING [http-nio-8082-exec-5] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2180 ClientConnectionId: eb1899c8-9fb3-43c2-8f50-eb22aa338bdf Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:eb1899c8-9fb3-43c2-8f50-eb22aa338bdf
+14-Jun-2023 15:57:18.765 WARNING [http-nio-8082-exec-3] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2179 ClientConnectionId: 081f1338-3a69-4da6-aa95-1a7852c3eec4 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset by peer ClientConnectionId:081f1338-3a69-4da6-aa95-1a7852c3eec4
+14-Jun-2023 16:22:31.700 WARNING [http-nio-8082-exec-1] com.microsoft.sqlserver.jdbc.SQLServerConnection.Prelogin ConnectionID:2210 ClientConnectionId: 5acb9802-6c10-44f6-a50e-099457560147 Prelogin error: host localhost port 1433 Error reading prelogin response: Connection reset ClientConnectionId:5acb9802-6c10-44f6-a50e-099457560147
+14-Jun-2023 17:33:34.086 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Jun-2023 17:33:34.099 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8082"]
+14-Jun-2023 17:33:34.118 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jun-2023 17:33:34.345 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [team3] registered the JDBC driver [com.microsoft.sqlserver.jdbc.SQLServerDriver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Jun-2023 17:33:34.378 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [419b5aea-d23c-4b47-913b-7884c87b9dca-284]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.380 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [c840db56-086a-414e-bf89-154b2cb7ec5c-273]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.381 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [7a973b04-51b1-4c2e-be4c-46d615fe0883-287]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.382 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [52e92a93-1c89-4f26-9b54-6939246113e0-273]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.382 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [b119aa46-8dd4-474f-9f2b-6f6568c95925-277]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.395 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [d5cd03a8-b5ff-4165-ab7f-199f4212fcb2-279]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.395 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [21057959-090e-4042-b823-2e89c765f1d5-273]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.396 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [8dd3d646-2096-42d1-b00a-e8f5cc8c057e-290]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.396 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [1047adf3-0b85-4b4b-87d0-707799bc5968-272]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.396 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [team3] created a ThreadLocal with key of type [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1] (value [com.microsoft.sqlserver.jdbc.ActivityCorrelator$1@ecfbe91]) and a value of type [com.microsoft.sqlserver.jdbc.ActivityId] (value [0c2bc671-efa9-4635-9d30-81401129c71c-290]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jun-2023 17:33:34.514 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8082"]
+14-Jun-2023 17:33:34.778 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8082"]
+14-Jun-2023 17:33:34.795 WARNING [main] org.apache.catalina.deploy.NamingResourcesImpl.cleanUp Failed to retrieve JNDI naming context for container [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/PRJ301_3W]] so no cleanup was performed for that container
+	javax.naming.NamingException: No naming context bound to this class loader
+		at org.apache.naming.ContextBindings.getClassLoader(ContextBindings.java:271)
+		at org.apache.catalina.deploy.NamingResourcesImpl.cleanUp(NamingResourcesImpl.java:1010)
+		at org.apache.catalina.deploy.NamingResourcesImpl.stopInternal(NamingResourcesImpl.java:993)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5194)
+		at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:257)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:293)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:778)
+		at org.apache.catalina.core.ContainerBase.destroyInternal(ContainerBase.java:982)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardService.destroyInternal(StandardService.java:572)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.core.StandardServer.destroyInternal(StandardServer.java:1036)
+		at org.apache.catalina.util.LifecycleBase.destroy(LifecycleBase.java:321)
+		at org.apache.catalina.startup.Catalina.stop(Catalina.java:850)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:811)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)

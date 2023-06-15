@@ -93,7 +93,6 @@
                                         <th>Địa chỉ</th>
                                         <th>Ngày mua</th>
                                         <th>Tổng tiền</th>
-                                        <th>Thanh Toán</th>
                                         <th>Tính năng</th>
                                     </tr>
                                 </thead>
@@ -105,8 +104,7 @@
                                             <td>(+84)${b.phone}</td>
                                             <td>${b.address}</td>
                                             <td>${b.date}</td>
-                                            <td>${b.total}</td>
-                                            <td><span class="badge bg-success">${b.payment}</span></td>                                  
+                                            <td>${b.total}</td>                               
                                             <td><a style=" color: rgb(245 157 57);background-color: rgb(251 226 197); padding: 5px;border-radius: 5px;" href="ordermanager?action=showdetail&bill_id=${b.bill_id}"><i class="fa"></i>Chi tiết đơn hàng</a></td>
                                         </tr>
                                     </c:forEach>

@@ -357,6 +357,9 @@ public class productDAO {
 
     public List<Product> getProductByCategory(String category_id) {
         List<Product> list = new ArrayList<>();
+        if(category_id.contains("users") || category_id.contains("bill")){
+            return list;
+        }
         String sql = "SELECT c.category_name, p.product_id, p.product_name, p.product_price, p.product_describe, p.quantity, p.img "
                 + "FROM product p INNER JOIN category c ON p.category_id = c.category_id "
                 + "WHERE p.category_id=" + category_id;
