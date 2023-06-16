@@ -107,11 +107,11 @@
                                             <td>${u.isAdmin}</td>
                                             <td><button class="btn btn-primary btn-sm edit" type="button" title="Sửa" id="show-emp" data-toggle="modal"
                                                         data-target="#ModalUP${u.user_id}"><i class="fas fa-edit"></i></button></td>
+                                            <td>Flag Team 3 - I4C</td>  
                                         </tr>
-                                    </c:forEach>
+                                    </c:forEach>  
                                 </tbody>
                             </table>
-
                         </div>
                     </div>
                 </div>

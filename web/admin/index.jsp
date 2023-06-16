@@ -50,7 +50,7 @@
                                                 alt="User Image">
                 <div>
                     <p class="app-sidebar__user-name"><b>${sessionScope.user.user_name}</b></p>
-                    <p class="app-sidebar__user-designation">Flag Team 3 - I4C</p>
+                    <p class="app-sidebar__user-designation">Welcome back</p>
                 </div>
             </div>
             <hr>
